@@ -2,7 +2,7 @@
 Hi-Res event data analysis 
 
 
-[ <sub><sup>(did someone say 'shufffle'?)</sup></sub> ] 
+<sub>(did someone say 'shufffle'?)</sub> 
 
 
 

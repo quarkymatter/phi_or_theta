@@ -1,5 +1,10 @@
 # phi_or_theta
-Hi-Res event data analysis (did someone say 'shufffle'?)
+Hi-Res event data analysis 
+
+
+[ <sub><sup>(did someone say 'shufffle'?)</sup></sub> ] 
+
+
 
  ┌( ಠ ◡ಠ)┘
 

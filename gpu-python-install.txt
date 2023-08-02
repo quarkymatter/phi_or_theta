@@ -1,0 +1,56 @@
+This works on Ubuntu AND WSL2
+
+(0) There is a video that goes with the tutorial at
+https://www.youtube.com/watch?v=aIFjEK7p9Zw&t=11s
+
+(1) clone the GIT repository in your folder
+$ git clone https://github.com/jacobtomlinson/gpu-python-tutorial.git
+
+(2) Create a Conda environment "cuda01" (you can name it whatever)
+that has no libraries of any kind... "PRISTINE"
+$ conda create -n cuda01
+
+(3) activate the "cuda01" environment ... drops your shell into it for PYTHON
+$ condat activate cuda01
+
+(4) You are now in the cuda01 environment, set up the CUDA stuff
+This step will take a bit of time (~1-2 hours) and will require you to say yes 
+before actually installing
+
+(cuda01) $ conda install -c rapidsai -c nvidia -c numba -c conda-forge \
+    cudf=21.06 python=3.7 cudatoolkit=11.2
+
+...wait (~1hr) for the prompt to go ahead and install
+... wait (~30 min.) for installation
+
+(5) Now install some other packages you will need ... in most of these cases it will prompt
+you to OK the start of installation... these don't take very long
+
+(cuda01) $ conda install numba
+(cuda01) $ conda install numpy
+(cuda01) $ conda install matplotlib
+(cuda01) $ conda install notebook
+(cuda01) $ conda deactivate
+$ exit
+
+(6) Start a new shell/terminal/Ubuntu WSL2 session
+
+$ condat activate cuda01
+
+(7) Start Jupyter Notebook
+
+(cuda01) $ jupyter notebook
+
+
+(8) Start beowser and go to localhost:8888, and navigate to gpu-python-tutorial
+You can start going through the first few notebooks
+There is a video that goes with the tutorial at
+https://www.youtube.com/watch?v=aIFjEK7p9Zw&t=11s
+
+...
+
+Don't forget to deactivate the environment before exiting
+(cuda01) $ conda deactivate
+$ exit
+ 
+

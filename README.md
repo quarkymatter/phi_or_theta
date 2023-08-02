@@ -4,7 +4,7 @@ Hi-Res event data analysis (did someone say 'shufffle'?)
 
 
 
-# Decoding the Data
+## Decoding the Data
 
 
 enc    energy of cosmic ray event in EeV (E="Exa"=10^18)
@@ -36,3 +36,13 @@ By the way the coordinates of our detector was at (needed to convert Alt+Azi to 
 HiRes
 -112.835757 deg long
 40.195203     deg lat
+
+
+
+
+
+
+## Contact
+
+
+For any inquiries or issues related to this repository, please contact Whitney at [w.osborn@utah.edu](mailto:w.osborn@utah.edu) or Lucas at [lucaspavlicek@gmail.com](mailto:lucaspavlicek@gmail.com).

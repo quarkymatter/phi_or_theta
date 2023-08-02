@@ -1,5 +1,5 @@
 # phi_or_theta
-Hi-Res event data analysis ... <sub>(did someone say <sup>'shufffle'</sup>?)</sub> 
+Hi-Res event data analysis ... <sub>(did someone say </sub>'shufffle'<sub>?)</sub> 
 
 
 

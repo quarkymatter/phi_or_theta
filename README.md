@@ -48,4 +48,4 @@ HiRes
 ## Contact
 
 
-For any inquiries or issues related to this repository, please contact Whitney at [w.osborn@utah.edu](mailto:w.osborn@utah.edu) or Lucas at [lucaspavlicek@gmail.com](mailto:lucaspavlicek@gmail.com).
+For any inquiries or issues related to this repository, please contact Whitney at [w.osborn@utah.edu](mailto:w.osborn@utah.edu) or Lucas at [lucaspavlicek@gmail.com](mailto:lucas.pavlicek@gmail.com).

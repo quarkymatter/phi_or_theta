@@ -12,18 +12,17 @@ Hi-Res event data analysis ... <sub>(did someone say </sub>'shufffle'<sub>?)</su
 
 enc    energy of cosmic ray event in EeV (E="Exa"=10^18)
 
-          The following angles are in degrees
-phi     using a "Earth local coordinate system where x is east, y is north
-          and z is straight up, this is the angle counter-clockwise from east
-          (in math classes you call this theta, in physics it is phi).
+(The following angles are in degrees)
+phi     using a "Earth local coordinate system where x is east, y is north and z is straight up, this is the angle counter-clockwise from east (in math classes you call this theta, in physics it is phi).
+
 zen    zenith angle -- or "Polar angle" ... what math textbooks call "phi" but physics texts call "theta"
-azi     astronomers' azimuthal angle measured clockwise from north
-          this is also the convention for navigational "bearing"
 
-sid    sidereal time in "hours" -- multiply by 15 to get degrees
+azi     astronomers' azimuthal angle measured clockwise from north this is also the convention for navigational "bearing"
 
-         "equatorial" celestial coordinates
+sid    sidereal time in "hours" -- multiply by 15 to get degrees "equatorial" celestial coordinates
+
 RA    Right Ascension in degrees
+
 DEC  declination in degrees
 
 See http://star-www.st-and.ac.uk/~fv/webnotes/chapter7.htm or

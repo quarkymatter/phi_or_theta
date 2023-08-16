@@ -54,5 +54,4 @@ For any inquiries or issues related to this repository, please contact Whitney a
 
 
 ## Affiliation
-The Telescope Array, The University of Utah 
-[2023]
+The Telescope Array, The University of Utah, 2023

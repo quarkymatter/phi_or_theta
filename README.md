@@ -6,7 +6,7 @@ Hi-Res event data analysis ... <sub>(did someone say </sub>'shufffle'<sub>?)</su
  ┌( ಠ ◡ಠ)┘
 
 
-![smearing](https://github.com/quarkymatter/phi_or_theta/assets/132121881/b9f9d99c-f7ff-4232-bf38-c87464971031)
+[smearing](https://github.com/quarkymatter/phi_or_theta/assets/132121881/b9f9d99c-f7ff-4232-bf38-c87464971031)
 
 
 

@@ -10,20 +10,20 @@ shuffled_files = [f for f in os.listdir(shuffled_folder) if f.startswith('hr1_sh
 
 
 # Initialize the combined histogram
-combined_hist = np.zeros((361, 181))
+combined_hist = np.zeros((360, 180))
 
 # Aggregate histograms from all shuffled files
 for shuffled_file in shuffled_files:
     hist = np.loadtxt(os.path.join(shuffled_folder, shuffled_file), delimiter=',')
-    combined_hist[:-1, :-1] += hist  # Adjust dimensions to match combined_hist
+    combined_hist += hist  # Adjust dimensions to match combined_hist
 
 # Create a figure and axis with Aitoff projection
 fig = plt.figure(figsize=(10, 6))
 ax = plt.subplot(111, projection=ccrs.Aitoff())
 
 # Plot the heat map
-ra_bins = np.arange(0, 361, 1)
-dec_bins = np.arange(-90, 91, 1)
+ra_bins = np.arange(-1, 361, 1)
+dec_bins = np.arange(-91, 91, 1)
 ra_centers = (ra_bins[:-1] + ra_bins[1:]) / 2
 dec_centers = (dec_bins[:-1] + dec_bins[1:]) / 2
 ra_mesh, dec_mesh = np.meshgrid(np.radians(ra_centers), np.radians(dec_centers))
